@@ -1,0 +1,109 @@
+header{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+header p{
+    margin: 0;
+    padding-top: 90px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.subscribe-section{
+    width: 100%;
+    height: 100vh;
+}
+.subscribe-section h2{
+    margin: 40px 0px 20px 0px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+.subscribe-section p{
+    font-size: 20px;
+    margin: 20px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.subscribe-section button{
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.subscribe-section #btn1{
+    margin-left: 700px;
+}
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+.modal{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.modal button{
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.modal-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
